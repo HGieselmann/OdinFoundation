@@ -1,0 +1,177 @@
+html{
+    font-family: arial, sans-serif;
+    margin: 0px;
+}
+body{
+    margin: 0;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    color: #222;
+    box-sizing: border-box;
+    padding: 6px;
+    height: 60px;
+    font-size: 14px;
+}
+
+header a:link{
+    color:#222;
+    text-decoration: none;
+}
+header a:hover{
+    text-decoration: underline;
+}
+header a:visited{
+    color: #222;
+}
+
+.header-item{
+    padding: 1em;
+    align-self: end;
+}
+
+.header-right{
+    margin-left: auto;
+}
+
+main{
+    width: 50%;
+    margin-left: 25%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo{
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    max-height: 290px;
+    min-height: 92px;
+    height:calc(100% -560px);
+}
+.logo-offset{
+    margin-top: auto;
+}
+#logo-img{
+    height: 92px;
+    width:auto;
+}
+.search-area{
+    width: 100%;
+}
+
+.search-bar-section{
+    height: 48px;
+    align-items: center;
+    display: flex;
+    width: auto;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+}
+
+.search-icon{
+    
+    padding: 0 10px;
+    fill: lightgray;
+}
+
+#search-bar{
+    height: 1em;
+    width:100%;
+    border:none;
+}
+
+.search-buttons{
+    margin-top: 2em;
+    display: flex;
+    justify-content: center;
+}
+
+.search-button{
+    background-color: #f8f9fa;
+    border:1px solid #f8f9fa;
+    border-radius: 4px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height:27px;
+    text-align: center;
+    cursor:pointer;
+    height: 36px;
+}
+
+.sign-in-button{
+    background-color: var(--button-color);
+    padding:0 12px;
+    --button-color: #4285f4;
+    line-height: 28px;
+    font-weight: bold;
+    
+    color: white;
+    border-radius: 2px;
+    border-color: var(--button-color);
+    box-shadow: transparent;
+}
+
+.language-select{
+    /* margin-top: 2em; */
+    color: #222;
+    font-size: 13px;
+    line-height: 28px;
+}
+.country{
+    padding: 15px;
+    border-bottom: 1px solid #dadce0;
+}
+footer{
+    color: gray;
+    position: fixed;
+    bottom:0;
+    width: 100%;
+    margin:0;
+    padding: 0 0px;
+    background-color: rgb(242,242,242);
+}
+
+.footer-nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-nav-right{
+    justify-content: space-evenly;
+    display: flex;
+    margin:auto;
+    align-items: center;
+}
+.footer-nav-right a{
+    padding: 15px;
+    display: block;
+}
+
+.footer-nav-left a{
+    padding: 15px;
+    display: block;
+}
+
+.footer-nav-left{
+    justify-content: space-evenly;
+    display: flex;
+    padding: 5px;;
+    align-items: center;
+}
+
+footer a:visited{
+    color: gray;
+}
+
+footer a:link{
+    color:gray;
+    text-decoration: none;;
+}
+.footer-nav a:visited{
+    color:#222;
+}
